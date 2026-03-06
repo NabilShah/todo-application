@@ -169,7 +169,7 @@ export default function MainScreen({ navigation }: any) {
                 flexDirection: "row",
                 justifyContent: "space-between",
                 alignItems: "center",
-                paddingHorizontal: 12,
+                paddingHorizontal: 15,
                 marginTop: 10,
                 marginBottom:15
             }}
@@ -204,7 +204,7 @@ export default function MainScreen({ navigation }: any) {
             style={{
                 flexDirection: "row",
                 alignItems: "center",
-                gap: 12
+                gap: 10
             }}
         >
 
@@ -227,7 +227,7 @@ export default function MainScreen({ navigation }: any) {
                     alignItems: "center"
                 }}
             >
-                <Text style={{ color: "#fff", marginRight: 5 }}>
+                <Text style={{ color: "#fff", marginRight: 6 }}>
                     Recent
                 </Text>
 
